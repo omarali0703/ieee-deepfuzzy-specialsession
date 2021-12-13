@@ -1,0 +1,147 @@
+.main-navbar {
+    z-index: 10;
+    /* width: 100%; */
+    height: fit-content;
+    display: block;
+}
+.main-header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: white;
+    font-size: 30pt;
+}
+
+.trail > span {
+    font-weight: bolder;
+}
+
+.main-header-subtext {
+    /* width: fit-content; */
+    max-width: 50%;
+    /* border-top: 1px solid white; */
+    padding: 10px;
+    /* margin-top: 20px; */
+    margin-bottom: 10px;
+    font-weight: lighter;
+    font-size: 50%;
+}
+
+.shrink-10 {
+    font-weight: lighter;
+    font-size: 30%;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.container-image {
+    width: 110%;
+    height: 120%;
+    left: -20px;
+    top: -20px;
+    z-index: -1;
+    position:fixed;
+
+    background-image: url('images/background.jpeg');
+}
+
+.ieee-logo {
+    background-image: url('images/logo-ieee-wcci-2022.png');
+    width: 393px;
+    height: 93px;
+    position: absolute;
+}
+.container {
+    width: 100%;
+    display: block;
+}
+
+
+.main-content {
+    margin-left: 10em;
+    margin-right: 10em;
+    padding-top: 60px;
+    /* margin: 2em; */
+    position: relative;
+    min-height: 1000px;
+    /* border-top: 1px solid white; */
+}
+
+
+
+.sub-content {
+
+}
+
+li ::marker {
+    color: aquamarine;
+}
+
+.sub-content > h2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.sub-content > p, .sub-content > ul {
+    color:white;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.sub-content > h4 {
+    color:white;
+    border-bottom: 1px solid white;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+
+}
+
+
+.side-by-side {
+    display: flex;
+}
+
+.side-by-side > .sub-content {
+    max-width: 50%;
+    margin-right: 20px;
+}
+
+.main-header > .btn {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.btn {
+    color: white;
+    padding: 20px;
+    border: 2px solid white;
+    width: fit-content;
+    transition: color 0.8s;
+    transition: background 0.8s;
+}
+
+.btn:hover {
+    background: white;
+    color: black;
+}
+
+
+
+body {
+    margin: 0;
+}
+
+
+table {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5em;
+}
+
+td {
+    padding: 5px;
+}
