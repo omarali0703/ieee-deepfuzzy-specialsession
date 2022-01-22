@@ -51,7 +51,7 @@ a:hover{
 }
 
 .container-image {
-    width: 110%;
+    width: 240%;
     height: 120%;
     left: -20px;
     top: -20px;
@@ -59,6 +59,17 @@ a:hover{
     position:fixed;
 
     background-image: url('images/background.jpeg');
+}
+
+.container-image-2 {
+    width: 240%;
+    height: 120%;
+    left: -20px;
+    top: -20px;
+    z-index: -1;
+    position:fixed;
+
+    background-image: url('images/background_2.png');
 }
 
 .ieee-logo {
@@ -83,6 +94,9 @@ a:hover{
     /* border-top: 1px solid white; */
 }
 
+.top-bottom {
+
+}
 
 
 .sub-content {
@@ -97,6 +111,13 @@ li ::marker {
     color: coral;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
+}
+
+.sub-content > h3 {
+    color: coral;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 120%;
 }
 
 .sub-content > p, .sub-content > ul {
