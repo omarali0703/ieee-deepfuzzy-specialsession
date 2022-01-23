@@ -77,6 +77,7 @@ a:hover{
     width: 393px;
     height: 93px;
     position: absolute;
+    cursor: pointer;
 }
 .container {
     width: 100%;
